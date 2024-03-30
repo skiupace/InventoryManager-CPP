@@ -92,7 +92,13 @@ void Inventory::remove_item_from_box() {
     std::cout << "Enter The Box ID to Remove Item Inside of It: ";
     std::cin >> temp_variable.box_id;
 
-    item_name.at(temp_variable.box_id - 1) = "empty";
-    item_quantity.at(temp_variable.box_id - 1) = 0;
-    std::cout << "The Box Has Been Freed ...\n";
+    if (box_id.size() >= temp_variable.box_id) {
+        if (item_name.at(temp_variable.box_id - 1) != "empty") {
+            item_name.at(temp_variable.box_id - 1) = "empty";
+            item_quantity.at(temp_variable.box_id - 1) = 0;
+            std::cout << "The Box Has Been Freed ...\n";
+        } else
+            std::cout << "Sorry But, The Box Is Already Empty...\n";
+    } else
+        PrintAppMessages::print_error_msg();
 }
