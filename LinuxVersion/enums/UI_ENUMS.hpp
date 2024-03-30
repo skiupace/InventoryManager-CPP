@@ -1,0 +1,10 @@
+#pragma once
+
+enum UI_ENUMS {
+    ADD_ITEM_INSIDE_BOX = 1,
+    ADD_ITEM_BY_BOX_NO,
+    UPDATE_ITEM,
+    REMOVE_ITEM,
+    PRINT_ITEMS,
+    EXIT_PROGRAM
+};

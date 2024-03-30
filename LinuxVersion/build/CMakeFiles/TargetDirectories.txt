@@ -1,0 +1,3 @@
+/home/ahmed47/Documents/visual-studio-code/Projects/C&C++/InventoryManager-CPP/LinuxVersion/build/CMakeFiles/main.dir
+/home/ahmed47/Documents/visual-studio-code/Projects/C&C++/InventoryManager-CPP/LinuxVersion/build/CMakeFiles/edit_cache.dir
+/home/ahmed47/Documents/visual-studio-code/Projects/C&C++/InventoryManager-CPP/LinuxVersion/build/CMakeFiles/rebuild_cache.dir
