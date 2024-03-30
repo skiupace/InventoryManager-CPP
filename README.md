@@ -1,1 +1,1 @@
-### a Simple Console Inventory Manager Written In (C++).
+### This Project has Been Made BY: Skiupace.
